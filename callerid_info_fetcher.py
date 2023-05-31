@@ -17,4 +17,4 @@ if answer["valid"] == True:
     print("Carrier:",answer["carrier"])
     print("Line type:",answer["line_type"])
 else:
-    print("Invalid number, please recheck and enter a valid number.")
+    print("Invalid API key or number. Please try again.")
