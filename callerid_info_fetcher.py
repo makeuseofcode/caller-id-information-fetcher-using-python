@@ -2,8 +2,7 @@ import requests
 
 number = input("Enter valid number:")
 print("--------------------------------------")
-country = 'IN'
-api = 'c5299347792eaab4a2e8bdd890064752'
+api = 'YOUR_API_KEY'
 url = 'http://apilayer.net/api/validate?access_key=' + api + '&number=' + number
 response = requests.get(url)
 answer = response.json()
